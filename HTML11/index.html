@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML11</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Ваши данные</legend>
+      <label for="owner_name">Ваше имя</label>
+      <input id="owner_name" type="text">
+      <br>
+      <label for="delivery_city">Выберите городе доставки</label>
+      <select id="delivery_city" name="select">
+        <option value="">-- Город не выбран --</option>
+        <option value="City1">Москва</option>
+        <option value="City2">Санкт-Петербург</option>
+        <option value="City3">Череповец</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Данные вашего питомца</legend>
+      <label for="pet_name">Кличка вашего питомца</label>
+      <input id="pet_name" type="text">
+    </fieldset>
+    <button type="submit" autofocus>Отправить данные</button>
+    <button type="reset">Очистить</button>
+  </form>
+</body>
+</html>
